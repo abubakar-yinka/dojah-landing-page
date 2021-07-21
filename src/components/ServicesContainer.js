@@ -17,7 +17,7 @@ const ServicesContainer = () => {
                         <div className="rectangle-128"></div>
                         <div className="know-your-customer">Know your customer</div>
                         <div className="frame-314">
-                            <p className="text-2">
+                            <p className="text-22">
                                 With our various data points and biometric verification techniques, you can identify and verify
                                 customers with ease. Some of the data points include:
                             </p>
@@ -70,7 +70,7 @@ const ServicesContainer = () => {
                         <div className="rectangle-128"></div>
                         <div className="know-your-business">Know your business</div>
                         <div className="frame-314-1">
-                            <p className="text-2">
+                            <p className="text-22">
                                 You can also verify companies’ corporate information and the personal information of those that manage
                                 the operations of the company. This can be achieved with the:
                             </p>
@@ -91,6 +91,58 @@ const ServicesContainer = () => {
                             </div>
                         </div>
                     </div>
+                    <img
+                      className="elizeu-dias-2-e-a-mk-unsplash-1-1"
+                      src="assets/assets(png)/elizeu-dias-2egnqazbamk-unsplash-1-1@1x.png"
+                      alt="elizeu-dias-2"
+                    />
+                </div>
+            </div>
+            <div className="frame-318">
+                <div className="overlap-group6">
+                    <div className="group-297">
+                        <img
+                            className="elizeu-dias-2-e-a-mk-unsplash-2"
+                            src="assets/assets(png)/elizeu-dias-2egnqazbamk-unsplash-2@1x.png"
+                            alt="elizeu-dias-3"
+                        />
+                        <div className="frame-316">
+                            <div className="rectangle-128"></div>
+                            <div className="financial-identity">Financial Identity</div>
+                            <div className="frame-314-2">
+                              <p className="text-10">
+                                One major source of identification and verification for both individuals and businesses is the bank
+                                identity. With our customisable widget, you can identify the customers with the following:
+                              </p>
+                              <p className="text-11">
+                                <span className="span">Account information <br /><br /></span>
+                                <span className="span-1">
+                                  You can retrieve the account information to financially identify a customer. This includes the
+                                  name, account balance, account status (active or inactive), account number, type of account
+                                  (savings or current).
+                                  <br />
+                                  <br />
+                                </span>
+                                  <br />
+                                <span className="span">Account transactions <br /><br /></span>
+                                <span className="span-1">
+                                  Spending and income patterns can be gotten from this to identify and understand how your customers
+                                  spend and earn.
+                                </span>
+                                <br />
+                              </p>
+                            </div>
+                            <div className="btn-7">
+                              <div className="primary-button-3">Watch Demo</div>
+                              <img
+                                className="ic-2"
+                                src="assets/assets(svg)/ic@2x.svg"
+                                alt="ic"
+                              />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ellipse-17-2"></div>
                 </div>
             </div>
         </div>
