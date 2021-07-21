@@ -1,13 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+  $navy: #1b2a4e;
+  $royal-blue:#3977de;
+  $cobalt:#5a8de3;
+  $lapis:#677189;
+  $sky-blue:#7ba4e9;
+  $perano:#9cbbee;
+  $artic:#bdd1f4;
+  $selago:#ebf1fc;
+  $baby-powder: #fcfcfc;
+  $white:#ffffff;
+
+  // Font Size
+  $xs: 13px;
+  $s: 14px;
+  $m: 16px;
+  $l: 20px;
+  $xl: 31px;
+  $xxl: 45px;
+  $xxxl: 48px;
+
+    // Font Family
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    // $bold: "Athletics-Bold";
+    // $extrabold: "Athletics-ExtraBold";
+    // $medium: "Athletics-Medium";
+    // $regular: "Athletics-Regular";
+
 * {
   margin: 0;
   padding: 0;
+  // text-align: center;
   box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif, 'Lato';
-  color: #677189;
+  color: $lapis;
   line-height: 27.79px;
 }
 
@@ -17,20 +44,29 @@ ul {
 
 a {
   text-decoration: none;
-  color: #677189;
+  color: $lapis;
 }
 
 .landing-page {
-  background-color: #ffffff;
-  height: 100%;
-  width: 100%;
-}
+    background-color: $white;
+    height: 100%;
+    width: 100%;
+  }
+  
+  //-------------------------------------------//
 
+  //------------ Navigation styles ------------//
+
+  //-------------------------------------------//
+  
 .main-navigation {
-  background-color: #ffffff;
-  height: 80px;
-  line-height: 20.46px;
-  font-weight: 500;
+    background-color: $white;
+    height: 80px;
+    line-height: 20.46px;
+    font-weight: 500;
+    // position: absolute;
+    // left: -1px;
+    // top: 16px;
 }
 
 .main-navigation .flex {
@@ -42,7 +78,7 @@ a {
   margin: 0 auto;
   margin-top: 16px;
 }
-
+  
 .flex {
   display: flex;
   align-items: center;
@@ -53,6 +89,7 @@ a {
 .dojah-logo {
   height: 29px;
   width: 86px;
+  // margin: 0 auto;
   margin: 25px 0 26px 188px;
   text-align: center;
 }
@@ -72,7 +109,7 @@ a {
 }
 
 .navbar a:hover {
-  border-bottom: 3px solid #3977de;
+  border-bottom: 3px solid $royal-blue;
 }
 
 .user-authentication {
@@ -92,7 +129,7 @@ a {
 }
 
 .login:hover {
-  border-bottom: 3px solid #3977de;
+  border-bottom: 3px solid $royal-blue;
 }
 
 .btn {
@@ -101,9 +138,9 @@ a {
   justify-content: center;
   align-items: center;
   padding: 14px 16px;
-  background-color: #3977de;
+  background-color: $royal-blue;
   border-radius: 4px;
-  color: #ffffff;
+  color: $white;
   width: 130px;
   min-width: 110px;
   height: 48px;
@@ -111,9 +148,10 @@ a {
 }
 
 .btn:hover {
-  background-color: #ebf1fc;
-  color: #3977de;
+  background-color: $selago;
+  color: $royal-blue;
 }
+
 
 .btn-primary {
   font-weight: 500;
@@ -135,7 +173,7 @@ a {
   height: 88px;
   left: 848px;
   top: 126px;
-  background-color: #bdd1f4;
+  background-color: $artic;
   border-radius: 44px;
 }
 
@@ -185,7 +223,7 @@ a {
 }
 
 .text-2-1 {
-  color: #677189;
+  color: $lapis;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -195,7 +233,6 @@ a {
   margin: 0 auto;
   margin-left: 2.0px;
 }
-
 .frame-1 {
   align-items: flex-start;
   display: flex;
@@ -219,7 +256,7 @@ a {
 
 .btn-2 {
   align-items: center;
-  background-color: #ebf1fc;
+  background-color: $selago;
   border-radius: 4px;
   display: flex;
   height: 48px;
@@ -227,11 +264,12 @@ a {
   min-width: 138px;
   padding: 0 14px;
   margin-left: 16px;
-  color: #3977de;
+  color: $royal-blue;
+
 }
 
 .btn-2:hover {
-  background-color: #3977de;
+  background-color: $royal-blue;
   color: white;
 }
 
@@ -286,7 +324,7 @@ a {
 }
 
 .text-3 {
-  color: #ffffff;
+  color: $white;
   font-size: 45px;
   font-weight: 800;
   line-height: 65.8px;
@@ -375,6 +413,7 @@ a {
   position: absolute;
   top: 8px;
   white-space: nowrap;
+
 }
 
 .group-254 {
@@ -395,7 +434,7 @@ a {
 
 .frame-298 {
   align-items: flex-end;
-  background-color: #fcfcfc;
+  background-color: $baby-powder;
   display: flex;
   min-width: 1440px;
 }
@@ -423,7 +462,7 @@ a {
 }
 
 .rectangle-128 {
-  background-color: #3977de;
+  background-color: $royal-blue;
   height: 4px;
   width: 50px;
 }
@@ -432,7 +471,7 @@ a {
   letter-spacing: 0;
   line-height: 66.6px;
   font-size: 48px;
-  color: #1b2a4e;
+  color: $navy;
   font-weight: 800;
   margin-top: 8px;
   min-height: 67px;
@@ -484,14 +523,14 @@ a {
   font-size: 16px;
   line-height: 28px;
   content: "\2022";
-  color: #3977de;
-  font-weight: 1000;
-  display: inline-block;
+  color: $royal-blue;
+  font-weight: 1000; 
+  display: inline-block; 
   width: 1em;
   margin-left: -1em;
 }
 
-.img-left {
+.img-left { 
   order: -1;
 }
 
@@ -500,19 +539,21 @@ a {
 }
 
 .ellipse-17 {
-  border: 24px solid #7ba4e9;
+  border: 24px solid $sky-blue;
   position: absolute;
   left: 1390px;
   top: 1880px;
   border-radius: 57px;
   height: 114px;
+  // margin-bottom: 51px;
+  // margin-left: 123px;
   width: 114px;
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 .frame-317 {
   align-items: center;
-  background-color: #fcfcfc;
+  background-color: $baby-powder;
   display: flex;
   min-width: 1440px;
 }
@@ -534,7 +575,7 @@ a {
 }
 
 .ellipse-17-1 {
-  border: 16px solid #7ba4e9;
+  border: 16px solid $sky-blue;
   border-radius: 28px;
   height: 56px;
   margin-left: 31px;
@@ -564,7 +605,7 @@ a {
   white-space: nowrap;
   font-size: 48px;
   font-weight: 800;
-  color: #1b2a4e;
+  color: $navy;
 }
 
 .frame-314-1 {
@@ -582,3 +623,12 @@ a {
   margin-top: 16px;
   min-width: 226px;
 }
+
+
+
+  //-------------------------------------------//
+
+  //------------ Navigation styles ------------//
+
+  //-------------------------------------------//
+  
