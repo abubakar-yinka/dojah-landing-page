@@ -103,13 +103,13 @@ const Header = () => {
                 />
             </div>
             
-            {/* <div className="frame-245">
+            <div className="frame-245">
                 <img
                     className="group-244"
-                    src="group-244.svg"
+                    src="assets/assets(svg)/group-244@1x.svg"
                     alt="text"
                 />
-            </div> */}
+            </div>
         </div>
     )
 }

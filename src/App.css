@@ -11,6 +11,10 @@ body {
   line-height: 27.79px;
 }
 
+img {
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
 }
@@ -23,7 +27,7 @@ a {
 .landing-page {
   background-color: #ffffff;
   height: 100%;
-  width: 100%;
+  max-width: 1440px;
 }
 
 .main-navigation {
@@ -31,6 +35,7 @@ a {
   height: 80px;
   line-height: 20.46px;
   font-weight: 500;
+  width: 100%;
 }
 
 .main-navigation .flex {
@@ -38,7 +43,7 @@ a {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   margin-top: 16px;
 }
@@ -52,7 +57,7 @@ a {
 
 .dojah-logo {
   height: 29px;
-  width: 86px;
+  max-width: 86px;
   margin: 25px 0 26px 188px;
   text-align: center;
 }
@@ -156,6 +161,7 @@ a {
   max-height: 120px;
   margin: 0 auto;
   margin-top: 70px;
+  position: relative;
 }
 
 .group-255 {
@@ -254,6 +260,7 @@ a {
   padding: 0 14px;
   margin-left: 16px;
   color: #3977de;
+  cursor: pointer;
 }
 
 .btn-2:hover {
@@ -269,10 +276,14 @@ a {
   font-size: 14px;
 }
 
+.overlap-group7 {
+  width: 100%;
+}
+
 .overlap-group8 {
   height: 946px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .overlap-group2 {
@@ -280,7 +291,7 @@ a {
   left: 0;
   position: absolute;
   top: 52px;
-  width: 1440px;
+  width: 100%;
 }
 
 .rectangle-130 {
@@ -288,7 +299,7 @@ a {
   left: 0;
   position: absolute;
   top: 194px;
-  width: 1440px;
+  width: 100%;
 }
 
 .rectangle-131 {
@@ -296,7 +307,7 @@ a {
   left: 0;
   position: absolute;
   top: 194px;
-  width: 1440px;
+  width: 100%;
 }
 
 .group-29 {
@@ -415,11 +426,25 @@ a {
   width: 93px;
 }
 
+.frame-245 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 240px;
+  min-width: 1440px;
+  padding: 0 214px;
+}
+
+.group-244 {
+  height: 32px;
+  width: 1012px;
+}
+
 .frame-298 {
   align-items: flex-end;
   background-color: #fcfcfc;
   display: flex;
-  min-width: 1440px;
+  min-width: 100%;
 }
 
 .group-295 {
@@ -534,7 +559,7 @@ a {
   align-items: center;
   background-color: #fcfcfc;
   display: flex;
-  min-width: 1440px;
+  min-width: 100%;
 }
 
 .flex-col {
@@ -614,7 +639,7 @@ a {
   align-items: flex-start;
   background-color: #fcfcfc;
   display: flex;
-  min-width: 1440px;
+  min-width: 100%;
   padding: 0 2px;
 }
 
@@ -742,7 +767,7 @@ a {
 .overlap-group1 {
   height: 436px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .frame-250 {
@@ -755,7 +780,7 @@ a {
   padding: 104px 200px;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
 }
 
 .group-261 {
@@ -791,13 +816,13 @@ a {
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
 }
 
 .overlap-group4 {
   height: 424px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .frame-313 {
@@ -810,7 +835,7 @@ a {
   padding: 104px 198px;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
 }
 
 .text-12 {
@@ -852,7 +877,7 @@ a {
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
 }
 
 .frame-272 {
@@ -860,7 +885,7 @@ a {
   background-color: #ffffff;
   display: flex;
   height: 978px;
-  min-width: 1440px;
+  min-width: 100%;
   padding: 0 200px;
 }
 
@@ -1053,7 +1078,7 @@ a {
   background-size: cover;
   display: flex;
   height: 415px;
-  min-width: 1440px;
+  min-width: 100%;
 }
 
 .frame-319 {
@@ -1066,7 +1091,7 @@ a {
   mix-blend-mode: multiply;
   padding: 104px 200px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .text-20 {
@@ -1085,7 +1110,7 @@ a {
   flex-direction: column;
   min-height: 793px;
   padding: 104px 0;
-  width: 1440px;
+  width: 100%;
 }
 
 .group-281 {
@@ -1523,4 +1548,10 @@ a {
   font-size: 13px;
   color: #9cbbee;
   font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
 }
