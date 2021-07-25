@@ -9,6 +9,7 @@ body {
   font-family: sans-serif, 'Lato';
   color: #677189;
   line-height: 27.79px;
+  width: fit-content;
 }
 
 img {
@@ -28,6 +29,8 @@ a {
   background-color: #ffffff;
   height: 100%;
   max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .main-navigation {
@@ -547,7 +550,7 @@ a {
 .ellipse-17 {
   border: 24px solid #7ba4e9;
   position: absolute;
-  left: 1390px;
+  left: 1326px;
   top: 1880px;
   border-radius: 57px;
   height: 114px;
@@ -630,7 +633,7 @@ a {
 
 .elizeu-dias-2-e-a-mk-unsplash-1-1 {
   height: 634px;
-  margin-left: 110px;
+  margin-left: 84px;
   object-fit: cover;
   width: 70%;
 }
