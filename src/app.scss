@@ -499,7 +499,9 @@ a {
   align-items: flex-end;
   background-color: $baby-powder;
   display: flex;
-  min-width: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .group-295 {
@@ -602,13 +604,10 @@ a {
 .ellipse-17 {
   border: 24px solid $sky-blue;
   position: absolute;
-  // left: 1390px;
-  left: 1326px;
-  top: 1880px;
+  left: 1390px;
+  top: 469px;
   border-radius: 57px;
   height: 114px;
-  // margin-bottom: 51px;
-  // margin-left: 123px;
   width: 114px;
   box-sizing: border-box;  
 }
